@@ -2,6 +2,7 @@
   <view class="content">
     <image class="logo" src="/static/logo.png" />
     <view class="text-area">
+	 <text style="font-size: 20px; font-weight: 700;">前端学习手册</text>
       <text class="title">{{ title.name }}</text>
       <text class="title">111</text>
       <text>This is in vue3.</text>
