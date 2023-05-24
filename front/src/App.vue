@@ -10,3 +10,9 @@ onHide(() => {
   console.log("App Hide");
 });
 </script>
+
+<template>
+  <view class="content">
+    首页
+  </view>
+</template>

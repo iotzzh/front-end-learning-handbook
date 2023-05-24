@@ -5,6 +5,18 @@
 			"style": {
 				"navigationBarTitleText": "前端学习手册"
 			}
+		},
+		{
+			"path": "pages/index/index1",
+			"style": {
+				"navigationBarTitleText": "前端学习手册"
+			}
+		},
+		{
+			"path": "pages/index/index2",
+			"style": {
+				"navigationBarTitleText": "前端学习手册"
+			}
 		}
 	],
 	"globalStyle": {
@@ -12,5 +24,28 @@
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"midButton":{
+			"iconPath":"",
+			"height":"80px",
+			"iconWidth":"60px",
+			"text":"发布"
+		},
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "",
+			"selectedIconPath": "",
+			"text": "组件"
+		}, {
+			"pagePath": "pages/index/index2",
+			"iconPath": "",
+			"selectedIconPath": "",
+			"text": "接口"
+		}]
 	}
 }
