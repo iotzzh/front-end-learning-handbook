@@ -9,16 +9,20 @@
   </view>
 </template>
 
-<script setup lang="ts">
+<script setup>
 	import { ref, onMounted } from 'vue'
+  import { onLoad, onShow } from "@dcloudio/uni-app";
 
   const imgList = [
     'http://qiniu-tujieqianduan.iotzzh.com/cloud-g5b019eb1b_1920.jpg',
     'http://qiniu-tujieqianduan.iotzzh.com/lake-gc521668c6_1920.jpg',
     'http://qiniu-tujieqianduan.iotzzh.com/nature-g978431efb_1920.jpg',
   ];
-	
 
+  onShow(() => {
+    wx.hideHomeButton();
+  });
+	
 </script>
 
 <style scoped lang="scss">
