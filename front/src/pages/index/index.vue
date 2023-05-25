@@ -6,7 +6,7 @@
       </swiper-item>
     </swiper>
     <view class="tab-bar" style="width: 100%;">
-      <van-notice-bar style="width: 100%;" text="足协杯战线连续第2年上演广州德比战，上赛季半决赛上恒大以两回合5-3的总比分淘汰富力。" />
+      <van-notice-bar style="width: 100%;" text="一年之计在于春，一日之计在于晨。早起的鸟有虫吃，是时候起床了~" />
     </view>
 
     <van-tabbar>
