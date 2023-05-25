@@ -6,12 +6,14 @@
 					<image :src="item" class="image"></image>
 				</swiper-item>
 			</swiper>
+      <zhtabbar></zhtabbar>
   </view>
 </template>
 
 <script setup>
 	import { ref, onMounted } from 'vue'
   import { onLoad, onShow } from "@dcloudio/uni-app";
+  import zhtabbar from '../../components/zh-tabbar/index.vue';
 
   const imgList = [
     'http://qiniu-tujieqianduan.iotzzh.com/cloud-g5b019eb1b_1920.jpg',

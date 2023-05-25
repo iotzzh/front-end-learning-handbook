@@ -10,9 +10,7 @@ import Loading from "../../components/loading/index"
 
 onLoad((option) => {
     setTimeout(() => {
-        uni.reLaunch({
-					url:'/pages/index/index'
-				})
+       uni.redirectTo({ url: '/pages/index/index' });
     }, 5000);
 }); 
 
