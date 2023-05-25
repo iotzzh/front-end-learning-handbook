@@ -30,22 +30,22 @@
 		"selectedColor": "#3cc51f",
 		"borderStyle": "black",
 		"backgroundColor": "#ffffff",
-		"midButton":{
-			"iconPath":"",
-			"height":"80px",
-			"iconWidth":"60px",
-			"text":"发布"
-		},
 		"list": [{
 			"pagePath": "pages/index/index",
-			"iconPath": "",
-			"selectedIconPath": "",
-			"text": "组件"
+			"iconPath": "static/logo.png",
+			"selectedIconPath": "static/logo.png",
+			"text": "手册"
+		}, {
+			"pagePath": "pages/index/index1",
+			"iconPath": "static/logo.png",
+			"selectedIconPath": "static/logo.png",
+			"text": "首页"
 		}, {
 			"pagePath": "pages/index/index2",
-			"iconPath": "",
-			"selectedIconPath": "",
-			"text": "接口"
-		}]
+			"iconPath": "static/logo.png",
+			"selectedIconPath": "static/logo.png",
+			"text": "我的"
+		}
+	]
 	}
 }

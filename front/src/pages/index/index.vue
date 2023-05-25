@@ -1,7 +1,7 @@
 <template>
   <view class="content">
     <swiper class="swiper" circular :indicator-dots="true" :autoplay="true" :interval="5000"
-				:duration="2000">
+				:duration="1000">
 				<swiper-item v-for="(item, index) in imgList" :key="index">
 					<image :src="item" class="image"></image>
 				</swiper-item>
