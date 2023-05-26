@@ -46,12 +46,14 @@
 			"pagePath": "pages/index/index",
 			"iconPath": "static/logo.png",
 			"selectedIconPath": "static/logo.png",
+			"fontSize": "18px",
 			"text": "组件"
 		}, {
 			"pagePath": "pages/me/index",
 			"iconPath": "static/logo.png",
 			"selectedIconPath": "static/logo.png",
-			"text": "me"
+			"text": "ME",
+			"fontSize": "18px"
 		}]
 	}
 	
