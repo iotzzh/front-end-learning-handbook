@@ -25,6 +25,9 @@ const emit = defineEmits(['change:active']);
 
 const onChange = (event:any) => {
     emit('change:active', event.detail);
+    if (event.detail === 4) {
+        uni.redirectTo({ url: '/pages/me/index' });
+    }
 }
 
 </script>
