@@ -28,7 +28,7 @@
       </view>
     </view>
 
-    <ZhVanTabbar v-model:active="active" @change:active="(value:number) => active = value"></ZhVanTabbar>
+    <!-- <ZhVanTabbar v-model:active="active" @change:active="(value:number) => active = value"></ZhVanTabbar> -->
   </view>
 </template>
 

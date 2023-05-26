@@ -36,5 +36,23 @@
 			"van-tabbar": "/wxcomponents/vant/tabbar/index",
   			"van-tabbar-item": "/wxcomponents/vant/tabbar-item/index"
 		 }
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/logo.png",
+			"selectedIconPath": "static/logo.png",
+			"text": "组件"
+		}, {
+			"pagePath": "pages/me/index",
+			"iconPath": "static/logo.png",
+			"selectedIconPath": "static/logo.png",
+			"text": "me"
+		}]
 	}
+	
 }
