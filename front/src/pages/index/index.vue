@@ -11,11 +11,12 @@
 
     <view style="width: 100%; display: flex; height: 300rpx;">
       <view style="flex: 1; padding: 10px 10px 0 0; background-color: blue;" >打卡区域
-        <view>本年打卡：xxx</view></view>
+        <view>本年打卡：xxx</view>
+        <view>考试题数：xxx</view>
+      </view>
       <view style="flex: 1; padding: 10px 10px 0 0; background-color: lightblue; display: flex; flex-direction: column;" >
         <view>全国排名（问号）: 打卡xx次，题目 xx次</view>
         <view>本市排名（问号）：打卡xx次，题目 xx次</view>
-        <view>考试题数：xxx</view>
       </view>
     </view>
 
