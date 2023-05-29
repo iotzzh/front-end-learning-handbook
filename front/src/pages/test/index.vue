@@ -3,10 +3,12 @@
       <view class="title-box" :style="{ height: barHeight}">前端练习</view>
       <view class="box">
         <view class="left">
-          顺序练习(0/xxx)
+          <view>顺序练习</view>
+          <view class="desc">xxx/9999</view>
         </view>
         <view class="right">
-          模拟测试
+          <view>模拟测试</view>
+          <view class="desc">仿真测试</view>
         </view>
       </view>
       <view class="actions">
@@ -23,6 +25,10 @@
         </view> 
         分享：微信/朋友圈/QQ/QQ空间
       </view>
+      <view style="width:100%;position:relative;height:190rpx;background:gray;">
+ <official-account style=""></official-account>
+</view>
+      <!-- <webview style="width: 100%; height: 500rpx" src='https://www.iotzzh.com' ></webview> -->
     </view>
   </template>
   
@@ -57,13 +63,36 @@
       align-items: center;
       font-size: 14px;
       font-weight: bolder;
+      box-shadow: 3rpx 3rpx 10rpx black;
+      margin-bottom: 30rpx;
     }
 
     .box {
       display: flex;
+      justify-content: space-around;
+      color: #323232;
+      font-weight: bolder;
       .left, .right {
-        flex: 1;
         text-align: center;
+        width: 300rpx;
+        height: 300rpx;
+        background: radial-gradient(white, #0089FF);
+        border-radius: 300rpx;
+        box-shadow: 0 0 10rpx #0089FF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        letter-spacing: 3rpx;
+        font-size: 40rpx;
+        .desc {
+          font-size: 30rpx;
+        }
+      }
+
+      .right {
+        background: radial-gradient(#0089FF, white);
+        color: white;
       }
 
     }
