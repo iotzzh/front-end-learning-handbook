@@ -1,8 +1,27 @@
 <template>
     <view class="content">
       <view class="title-box" :style="{ height: barHeight}">前端练习</view>
-      <view class="subject">
-  
+      <view class="box">
+        <view class="left">
+          顺序练习(0/xxx)
+        </view>
+        <view class="right">
+          模拟测试
+        </view>
+      </view>
+      <view class="actions">
+        收藏/关注公众号/精选100/星球/专项练习/友情提示
+      </view>
+
+      <view class="share">
+        自学前端，就用前端学习手册
+        <view class="text-on-line">
+          <view class="text">
+          分享给好友
+          </view>
+
+        </view> 
+        分享：微信/朋友圈/QQ/QQ空间
       </view>
     </view>
   </template>
@@ -38,6 +57,31 @@
       align-items: center;
       font-size: 14px;
       font-weight: bolder;
+    }
+
+    .box {
+      display: flex;
+      .left, .right {
+        flex: 1;
+        text-align: center;
+      }
+
+    }
+  }
+
+  .text-on-line {
+    width: 100%;
+    height: 1px;
+    background-color: #bfbfbf;
+    position: relative;
+    margin: 30rpx 0rpx;
+    .text {
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      top: 50%;
+      background-color: white;
+      padding: 0rpx 15rpx;
     }
   }
   </style>
