@@ -11,13 +11,7 @@ import Loading from "../../components/loading/index"
 onLoad((option) => {
     setTimeout(() => {
        uni.redirectTo({ url: '/pages/index/index' });
-    // uni.navigateTo({
-    //      url: '/pages/index/index'
-    // });
-    // uni.switchTab({
-    //      url: '/pages/index/index'
-    // });
-    }, 5000);
+    }, 2000);
 }); 
 
 
