@@ -5,7 +5,6 @@
       <view class="title">张中华</view>
       <view class="signature">善始者实繁，而克终者盖寡。念念不忘，必有回响，莫忘初心~</view>
       <view class="bottom-left"></view>
-      <view class="bottom-right"></view>
     </view>
     <view class="list">
       <view class="item" v-for="(item, index) in items" :key="index">
@@ -60,10 +59,6 @@ const items = [
     border-radius: 30rpx 30rpx 0 0;
     }
 
-    .bottom-right {
-
-    }
-
     .pic {
       width: 100rpx;
       height: 100rpx;
@@ -94,6 +89,11 @@ const items = [
       margin-bottom: 20rpx;
       padding-left: 20rpx;
       border-radius: 30rpx;
+      transition:  all 2s;
+      &:hover {
+        
+        background: linear-gradient(to right, transparent 10%, #0089FF 90%);
+      }
 
       .image {
         width: 50rpx;

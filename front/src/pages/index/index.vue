@@ -35,7 +35,6 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
 import { onLoad, onShow } from "@dcloudio/uni-app";
-import ZhVanTabbar from '../../components/zh-van-tabbar/index.vue';
 const active = ref(2);
 
 const onChange = (event:any) => {
