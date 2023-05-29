@@ -1,57 +1,33 @@
 <template>
   <view class="content">
-    <swiper class="swiper" circular :indicator-dots="true" :autoplay="true" :interval="5000" :duration="1000">
-      <swiper-item v-for="(item, index) in imgList" :key="index">
-        <image :src="item" class="image"></image>
-      </swiper-item>
-    </swiper>
-    <view class="tab-bar" style="width: 100%;">
-      <van-notice-bar style="width: 100%;" text="一年之计在于春，一日之计在于晨。早起的鸟有虫吃，是时候起床了~" />
+    <view class="info">
+      <image class="pic" src="../../static/me.png"></image>
+      <view class="title">张中华</view>
+      <view class="signature">善始者实繁，而克终者盖寡。念念不忘，必有回响，莫忘初心~</view>
+      <view class="bottom-left"></view>
+      <view class="bottom-right"></view>
     </view>
-
-    <view style="width: 100%; display: flex; height: 300rpx;">
-      <view style="flex: 1; padding: 10px 10px 0 0; background-color: blue;" >打卡区域
-        <view>本年打卡：xxx</view>
-        <view>考试题数：xxx</view>
-      </view>
-      <view style="flex: 1; padding: 10px 10px 0 0; background-color: lightblue; display: flex; flex-direction: column;" >
-        <view>全国排名（问号）: 打卡xx次，题目 xx次</view>
-        <view>本市排名（问号）：打卡xx次，题目 xx次</view>
+    <view class="list">
+      <view class="item" v-for="(item, index) in items" :key="index">
+        <image class="image" :src="item.image"></image>
+        <view class="title">{{ item.title }}</view>
+        <image class="right-image" src="../../static/right.png"></image>
       </view>
     </view>
-
-    <view style="width: 100%; display: flex; height: 700rpx;">
-      <view style="flex: 1; padding: 10px 10px 0 0; background-color: pink;" >全国列表， 各20条</view>
-      <view style="flex: 1; padding: 10px 10px 0 0; background-color: lightgray; display: flex; flex-direction: column;" >
-        全市列表
-        各20条
-      </view>
-    </view>
-
-    <!-- <ZhVanTabbar v-model:active="active" @change:active="(value:number) => active = value"></ZhVanTabbar> -->
   </view>
 </template>
 
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
 import { onLoad, onShow } from "@dcloudio/uni-app";
-import ZhVanTabbar from '../../components/zh-van-tabbar/index.vue';
-const active = ref(4);
-
-const onChange = (event:any) => {
-  console.log(event);
-}
-
-
-const imgList = [
-  'http://qiniu-tujieqianduan.iotzzh.com/cloud-g5b019eb1b_1920.jpg',
-  'http://qiniu-tujieqianduan.iotzzh.com/lake-gc521668c6_1920.jpg',
-  'http://qiniu-tujieqianduan.iotzzh.com/nature-g978431efb_1920.jpg',
+const items = [
+  { image: '../../static/home.png', title: '最近记录' },
+  { image: '../../static/home.png', title: '我的收藏' },
+  { image: '../../static/home.png', title: '分享给好友' },
+  { image: '../../static/home.png', title: '关注公众号' },
+  { image: '../../static/home.png', title: '联系客服' },
+  { image: '../../static/home.png', title: '关于软件' },
 ];
-
-onShow(() => {
-  wx.hideHomeButton();
-});
 
 </script>
 
@@ -61,14 +37,75 @@ onShow(() => {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
-  .swiper {
+  position: relative;
+  .info {
     width: 100%;
-    height: 300rpx;
-
-    .image {
+    height: 500rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, transparent, #0089FF);
+    // box-shadow: 0px 3px 10px #909090;
+    // margin-bottom: 10px;
+    border-radius: 0rpx 0rpx -50rpx -50rpx;
+    position: relative;
+    .bottom-left {
       width: 100%;
-      height: 100%;
+    height: 30rpx;
+    background: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 30rpx 30rpx 0 0;
+    }
+
+    .bottom-right {
+
+    }
+
+    .pic {
+      width: 100rpx;
+      height: 100rpx;
+    }
+    .title {
+      padding: 10rpx;
+      font-size: 16px;
+      font-weight: bolder;
+    }
+    .signature {
+      padding: 10rpx;
+      font-size: 12px;
+    }
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    .item {
+      height: 120rpx;
+      display: flex;
+      align-items: center;
+      background: linear-gradient(to left, transparent 1%, #0089FF 99%);
+      box-shadow: 0px 0px 3px #909090;
+      width: 90%;
+      margin: 0 auto;
+      margin-bottom: 20rpx;
+      padding-left: 20rpx;
+      border-radius: 30rpx;
+
+      .image {
+        width: 50rpx;
+        height: 50rpx;
+        padding-right: 20rpx;
+      }
+      .right-image {
+        width: 50rpx;
+        height: 50rpx;
+        margin-left: auto;
+      }
+
     }
   }
 }
