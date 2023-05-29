@@ -81,6 +81,8 @@ onMounted(async () => {
     align-items: center;
     font-size: 14px;
     font-weight: bolder;
+    position: sticky;
+    top: 0;
   }
 
   .subjects {

@@ -46,6 +46,8 @@ const items = [
     align-items: center;
     background: linear-gradient(to bottom, transparent, #0089FF);
     position: relative;
+    position: sticky;
+    top: 0;
     .bottom-left {
       width: 100%;
     height: 30rpx;
