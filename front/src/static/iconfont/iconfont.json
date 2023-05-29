@@ -1,0 +1,128 @@
+{
+  "id": "4092373",
+  "name": "uniapp",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "小程序使用",
+  "glyphs": [
+    {
+      "icon_id": "1160125",
+      "name": "css",
+      "font_class": "css",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "1444967",
+      "name": "nodejs",
+      "font_class": "nodejs",
+      "unicode": "e80e",
+      "unicode_decimal": 59406
+    },
+    {
+      "icon_id": "1916536",
+      "name": "网页",
+      "font_class": "html",
+      "unicode": "e7da",
+      "unicode_decimal": 59354
+    },
+    {
+      "icon_id": "5583177",
+      "name": "node.js 性能平台",
+      "font_class": "npp",
+      "unicode": "e8a2",
+      "unicode_decimal": 59554
+    },
+    {
+      "icon_id": "5703786",
+      "name": "jsx",
+      "font_class": "jsx",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "5961331",
+      "name": "js",
+      "font_class": "js",
+      "unicode": "ec68",
+      "unicode_decimal": 60520
+    },
+    {
+      "icon_id": "6496026",
+      "name": "Vue",
+      "font_class": "Vue",
+      "unicode": "e799",
+      "unicode_decimal": 59289
+    },
+    {
+      "icon_id": "12600754",
+      "name": "jsp",
+      "font_class": "jsp",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "12600761",
+      "name": "jsx",
+      "font_class": "jsx1",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "13304019",
+      "name": "react",
+      "font_class": "react",
+      "unicode": "e689",
+      "unicode_decimal": 59017
+    },
+    {
+      "icon_id": "15188548",
+      "name": "react",
+      "font_class": "react1",
+      "unicode": "e712",
+      "unicode_decimal": 59154
+    },
+    {
+      "icon_id": "15214517",
+      "name": "html",
+      "font_class": "html1",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "19035877",
+      "name": "css",
+      "font_class": "css1",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "19035880",
+      "name": "js",
+      "font_class": "js1",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "19035892",
+      "name": "vue",
+      "font_class": "vue",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "22115437",
+      "name": "logo-pwa",
+      "font_class": "logo-pwa",
+      "unicode": "e9e3",
+      "unicode_decimal": 59875
+    },
+    {
+      "icon_id": "27365352",
+      "name": "vuejs",
+      "font_class": "vuejs",
+      "unicode": "ec2c",
+      "unicode_decimal": 60460
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4092373 */
+  src: url('iconfont.woff2?t=1685341412822') format('woff2'),
+       url('iconfont.woff?t=1685341412822') format('woff'),
+       url('iconfont.ttf?t=1685341412822') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-css:before {
+  content: "\e63b";
+}
+
+.icon-nodejs:before {
+  content: "\e80e";
+}
+
+.icon-html:before {
+  content: "\e7da";
+}
+
+.icon-npp:before {
+  content: "\e8a2";
+}
+
+.icon-jsx:before {
+  content: "\e60a";
+}
+
+.icon-js:before {
+  content: "\ec68";
+}
+
+.icon-Vue:before {
+  content: "\e799";
+}
+
+.icon-jsp:before {
+  content: "\e63a";
+}
+
+.icon-jsx1:before {
+  content: "\e63c";
+}
+
+.icon-react:before {
+  content: "\e689";
+}
+
+.icon-react1:before {
+  content: "\e712";
+}
+
+.icon-html1:before {
+  content: "\e60c";
+}
+
+.icon-css1:before {
+  content: "\e618";
+}
+
+.icon-js1:before {
+  content: "\e619";
+}
+
+.icon-vue:before {
+  content: "\e61b";
+}
+
+.icon-logo-pwa:before {
+  content: "\e9e3";
+}
+
+.icon-vuejs:before {
+  content: "\ec2c";
+}
+

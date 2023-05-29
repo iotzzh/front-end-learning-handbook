@@ -1,6 +1,7 @@
 import { createSSRApp } from "vue";
 import NavBar from './components/zh-navbar/index.vue'
 import TabBar from './components/zh-tabbar/index.vue'
+import './static/iconfont/iconfont.css';
 
 import App from "./App.vue";
 export function createApp() {

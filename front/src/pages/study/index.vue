@@ -2,7 +2,8 @@
   <view class="content">
     <view class="title-box" :style="{ height: barHeight}">前端学习手册</view>
     <view class="subject">
-
+      
+      <i class="iconfont icon-html"></i>
     </view>
   </view>
 </template>
