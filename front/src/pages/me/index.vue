@@ -45,9 +45,6 @@ const items = [
     justify-content: center;
     align-items: center;
     background: linear-gradient(to bottom, transparent, #0089FF);
-    // box-shadow: 0px 3px 10px #909090;
-    // margin-bottom: 10px;
-    border-radius: 0rpx 0rpx -50rpx -50rpx;
     position: relative;
     .bottom-left {
       width: 100%;
@@ -90,8 +87,7 @@ const items = [
       padding-left: 20rpx;
       border-radius: 30rpx;
       transition:  all 2s;
-      &:hover {
-        
+      &:hover {        
         background: linear-gradient(to right, transparent 10%, #0089FF 90%);
       }
 
