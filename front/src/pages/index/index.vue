@@ -35,7 +35,7 @@
 
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
-import { onLoad, onShow } from "@dcloudio/uni-app";
+import { onLoad, onShow, onTabItemTap } from "@dcloudio/uni-app";
 const active = ref(2);
 
 const list =  [
@@ -58,6 +58,10 @@ const imgList = [
 
 onShow(() => {
   wx.hideHomeButton();
+});
+
+onTabItemTap((item:any) =>  { 
+    console.log(item) 
 });
 
 </script>

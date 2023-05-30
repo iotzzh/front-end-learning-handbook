@@ -25,15 +25,13 @@
       </view>
       分享：微信/朋友圈/QQ/QQ空间
     </view>
-    <view style="width:100%;position:relative;height:190rpx;background:gray;">
-      <official-account style=""></official-account>
-    </view>
+    <official-account style="width: 100%; height: auto;"></official-account>
     <!-- <webview style="width: 100%; height: 500rpx" src='https://www.iotzzh.com' ></webview> -->
   </view>
 </template>
   
 <script lang="ts" setup>
-import { computed } from 'vue';
+import { computed, ref, onMounted } from 'vue';
 
 // const h = uni.getSystemInfoAsync().statusBarHeight;
 // const barHeight = computed(() => `calc(100vh - ${h}px - 44px)`);
