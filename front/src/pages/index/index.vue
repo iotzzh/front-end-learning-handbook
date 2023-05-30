@@ -6,6 +6,7 @@
       </swiper-item>
     </swiper>
     <view class="tab-bar" style="width: 100%;">
+      <u-notice-bar mode="horizontal" :is-circular="true" :list="list"></u-notice-bar>
       <!-- <van-notice-bar style="width: 100%;" text="一年之计在于春，一日之计在于晨。早起的鸟有虫吃，是时候起床了~" /> -->
     </view>
 
@@ -36,6 +37,13 @@
 import { ref, onMounted } from 'vue'
 import { onLoad, onShow } from "@dcloudio/uni-app";
 const active = ref(2);
+
+const list =  [
+					'寒雨连江夜入吴',
+					'平明送客楚山孤',
+					'洛阳亲友如相问',
+					'一片冰心在玉壶'
+				];
 
 const onChange = (event:any) => {
   console.log(event);
