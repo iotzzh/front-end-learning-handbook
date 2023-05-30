@@ -6,7 +6,7 @@
       </swiper-item>
     </swiper>
     <view class="tab-bar" style="width: 100%;">
-      <van-notice-bar style="width: 100%;" text="一年之计在于春，一日之计在于晨。早起的鸟有虫吃，是时候起床了~" />
+      <!-- <van-notice-bar style="width: 100%;" text="一年之计在于春，一日之计在于晨。早起的鸟有虫吃，是时候起床了~" /> -->
     </view>
 
     <view style="width: 100%; display: flex; height: 300rpx;">
