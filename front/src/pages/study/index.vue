@@ -19,7 +19,7 @@
 </template>
 
 <script lang="ts" setup>
-import { computed } from 'vue';
+import { computed, ref, onMounted } from 'vue';
 
 const subjects = [
   {
@@ -131,11 +131,11 @@ onMounted(async () => {
           }
 
           .iconfont {
-            font-size: 120rpx;
+            font-size: 100rpx;
           }
 
           .info {
-            font-size: 30rpx;
+            font-size: 20rpx;
             font-weight: bolder;
             letter-spacing: 3rpx;
           }
