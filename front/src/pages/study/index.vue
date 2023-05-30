@@ -135,7 +135,7 @@ onMounted(async () => {
           }
 
           .info {
-            font-size: 20rpx;
+            font-size: 22rpx;
             font-weight: bolder;
             letter-spacing: 3rpx;
           }

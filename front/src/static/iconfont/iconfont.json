@@ -6,6 +6,55 @@
   "description": "小程序使用",
   "glyphs": [
     {
+      "icon_id": "201559",
+      "name": "火热",
+      "font_class": "huore",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "903796",
+      "name": "火",
+      "font_class": "huo",
+      "unicode": "e664",
+      "unicode_decimal": 58980
+    },
+    {
+      "icon_id": "3858844",
+      "name": "火爆",
+      "font_class": "huobao",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "7991362",
+      "name": "点火",
+      "font_class": "dianhuo",
+      "unicode": "e6bc",
+      "unicode_decimal": 59068
+    },
+    {
+      "icon_id": "8875678",
+      "name": "预售火热",
+      "font_class": "yushouhuore",
+      "unicode": "e662",
+      "unicode_decimal": 58978
+    },
+    {
+      "icon_id": "12095300",
+      "name": "火",
+      "font_class": "huo1",
+      "unicode": "e65b",
+      "unicode_decimal": 58971
+    },
+    {
+      "icon_id": "24810942",
+      "name": "火",
+      "font_class": "huo2",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
       "icon_id": "1160125",
       "name": "css",
       "font_class": "css",

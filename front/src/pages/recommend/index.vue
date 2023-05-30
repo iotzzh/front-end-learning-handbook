@@ -3,6 +3,8 @@
       <view class="title-box" :style="{ height: barHeight}">推荐</view>
       <u-grid :col="2" :border="true" align="center" class="items">
 		<u-grid-item v-for="(item, index) in recommendList" :key="index">
+      <!-- <image v-if="index === 1" src="../../static/srecommend.png" class="badge-icon"></image> -->
+      <i v-if="index === 1" class="iconfont icon-dianhuo badge-icon"></i>
 			<u-icon :name="item.icon" :size="65" style="color: #0089FF;"></u-icon>
 			<view class="grid-text">{{ item.text }}</view>
 		</u-grid-item>
@@ -65,5 +67,15 @@
       box-shadow: 0rpx 3rpx 10rpx #0089FF;
       padding: 50rpx;
     }
+
+    .badge-icon {
+		position: absolute;
+		top: 14rpx;
+		right: 20rpx;
+		width: 50rpx;
+		height: 50rpx;
+    color: red;
+    filter: brightness(2);
+	}
   }
   </style>
