@@ -3,6 +3,7 @@
     <view class="title-box" :style="{ height: barHeight }">前端练习</view>
     <view class="box">
       <view class="left">
+        <view style=""></view>
         <view>顺序练习</view>
         <view class="desc">xxx/9999</view>
       </view>
@@ -11,6 +12,7 @@
         <view class="desc">仿真测试</view>
       </view>
     </view>
+
     <view class="actions">
       收藏/关注公众号/精选100/星球/专项练习/友情提示
     </view>
@@ -26,7 +28,6 @@
       分享：微信/朋友圈/QQ/QQ空间
     </view>
     <official-account style="width: 100%; height: auto;"></official-account>
-    <!-- <webview style="width: 100%; height: 500rpx" src='https://www.iotzzh.com' ></webview> -->
   </view>
 </template>
   
@@ -70,6 +71,7 @@ onMounted(async () => {
     justify-content: space-around;
     color: #323232;
     font-weight: bolder;
+    margin-bottom: 20rpx;
 
     .left,
     .right {
@@ -88,6 +90,10 @@ onMounted(async () => {
 
       .desc {
         font-size: 30rpx;
+      }
+
+      &:hover {
+        box-shadow: none;
       }
     }
 
